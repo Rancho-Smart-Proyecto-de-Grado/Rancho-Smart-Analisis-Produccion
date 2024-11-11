@@ -1,0 +1,23 @@
+# Archivos de configuración del entorno y base de datos
+*.env
+*.DS_Store
+*.pyc
+__pycache__/
+db.sqlite3
+
+# Archivos de configuración específicos del editor
+.vscode/
+.idea/
+
+# Archivos de logs
+*.log
+
+# Archivos de migración de Django (no siempre es necesario ignorar, pero recomendable en desarrollo)
+*/migrations/
+
+# Archivos de Docker
+docker-compose.yml
+Dockerfile
+
+# Archivos de entorno virtual
+venv/
